@@ -23,6 +23,16 @@ mpn i -g @nestjs/cli
 docker-compose up -d
 ```
 
+5. Clonar archivo __.envExample__ y renombrar la copia a __.env__
+
+6. LLenar las variables de entorno definidas en __.env__
+  
+7. Ejecutar la aplicacion de desarrollo en dev:
+
+```
+npm run start:dev
+```
+
 ## Stack
 * Nest
 * MongoDB
